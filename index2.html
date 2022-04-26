@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resourceful : Game Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Game Tracker</h1>
+        <div id="register-div">
+            <p>Please Register First</p>
+            <ul id="register-list">
+                <li id="register">
+                    <label>
+                        <input type="text" id="first-name" placeholder="Enter First Name">
+                    </label>
+                </li>
+                <li id="register">
+                    <label>
+                        <input type="text" id="last-name" placeholder="Enter Last Name">
+                    </label>
+                </li>
+                <li id="register">
+                    <label>
+                        <input type="text" id="email" placeholder="Enter Email">
+                    </label>
+                </li>
+                <li id="register">
+                    <label>
+                        <input type="text" id="password" placeholder="Enter Password">
+                    </label>
+                </li>
+                <button id="register-button">Register</button>
+                <p id="email-hint">That email is already in use</p>
+                <p>Already registered?</p>
+                <button id="goto-login-button">Proceed to Login</button>
+            </ul>
+        </div>
+        <div id="login-div">
+            <p>Please Login</p>
+            <ul id="login-list">
+                <li id="login">
+                    <label>
+                        <input type="text" id="login-email" placeholder="Enter Email">
+                    </label>
+                </li>
+                <li id="login">
+                    <label>
+                        <input type="text" id="login-password" placeholder="Enter Password">
+                    </label>
+                </li>
+                <button id="login-button">Login</button>
+                <p id="bad-credentials">Incorrect email or password</p>
+                <p>Need to Register?</p>
+                <button id="goto-register-button">Register New User</button>
+            </ul>
+        </div>
+        <div id="main">
+            <div id="inputs-div">
+                <p>Add a new game to the list below</p>
+                <ul id="input-list">
+                    <li id="input">
+                        <label>
+                            <input type="text" id="name" placeholder="Enter Name">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="genre" placeholder="Enter Genre">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="rating" placeholder="Enter Rating - 0/10">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="completion" placeholder="Enter Completion - 0%">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="platform" placeholder="Enter Platform">
+                        </label>
+                    </li>
+                    <button id="add-button">Add New Game</button>
+                </ul>
+            </div>
+            <div id="edit-form">
+                <ul id="input-list">
+                    <li id="input">
+                        <label>
+                            <input type="text" id="edit-name" placeholder="Enter Name">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="edit-genre" placeholder="Enter Genre">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="edit-rating" placeholder="Enter Rating - 0/10">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="edit-completion" placeholder="Enter Completion - 0%">
+                        </label>
+                    </li>
+                    <li id="input">
+                        <label>
+                            <input type="text" id="edit-platform" placeholder="Enter Platform">
+                        </label>
+                    </li>
+                </ul>
+                <button id="submit-button">Submit</button>
+                <button id="cancel-button">Cancel</button>
+            </div>
+            <ul id="to-do-list">
+                <!--content goes here-->
+                <!--
+                <li>item #1</li>
+                -->
+            </ul>
+        </div>
+        <script src="app2.js"></script>
+    </body>
+</html>

@@ -1,0 +1,270 @@
+h1 {
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+    /*background-color: rgb(105, 202, 206);*/
+    margin: 0px;
+    padding: 5%;
+    /*border-bottom: 8px solid rgb(81, 169, 172);*/
+}
+html {
+    background-color: rgb(224, 245, 228);
+    min-height: 100%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    top: 0;
+    bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(144, 216, 235);
+    box-shadow: 0px 0px 5px 5px grey;
+    height: 100%;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+#to-do-list {
+    margin: 5%;
+    padding: 0px;
+    padding-bottom: 10px;
+    /*box-shadow: 0px 10px 5px 5px grey;*/
+    min-height: 350px;
+    list-style: none;
+    background-color: rgb(198, 236, 206);
+    box-shadow: 0px 5px 5px 5px grey;
+    margin-bottom: 40px;
+}
+li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 20px;
+    font-size: 20px;
+    margin: 0px;
+}/*
+li:nth-child(even) {
+    background-color: rgb(222, 228, 147);
+}*/
+#input {
+    padding: 2px;
+}
+#input-list {
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+#name {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+#genre {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#rating {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#completion {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#platform {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+p {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+#add-button {
+    font-size: 20px;
+    margin: 2px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+/*
+div {
+    margin: auto;
+    text-align: center;
+}*/
+#inputs-div {
+    margin-bottom: 50px;
+    background-color: rgb(198, 236, 206);
+    margin-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20%;
+    box-shadow: 0px 5px 5px 5px grey;
+}
+.task-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+#edit-form {
+    display: none;
+    z-index: 9;
+    position: fixed;
+    text-align: center;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(227, 236, 228);
+    border-color: black;
+    border-width: 1px;
+    border-style: none;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 5px 5px grey;
+}
+#edit-name {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+#edit-genre {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#edit-rating {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#edit-completion {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#edit-platform {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#submit-button {
+    font-size: 20px;
+}
+#cancel-button {
+    font-size: 20px;
+}
+#register-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+#register-div {
+    margin-bottom: 50px;
+    background-color: rgb(198, 236, 206);
+    margin-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20%;
+    box-shadow: 0px 5px 5px 5px grey;
+    display: none;
+}
+#email-hint {
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+#bad-credentials {
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+#register {
+    padding: 2px;
+}
+#register-button {
+    font-size: 20px;
+    margin: 2px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+#goto-login-button {
+    font-size: 20px;
+    margin: 2px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+#goto-register-button {
+    font-size: 20px;
+    margin: 2px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+#first-name {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+#last-name {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#email {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#password {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#login-div {
+    display: none;
+}
+#main {
+    display: block;
+}
+#login-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+#login-div {
+    margin-bottom: 50px;
+    background-color: rgb(198, 236, 206);
+    margin-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20%;
+    box-shadow: 0px 5px 5px 5px grey;
+}
+#login {
+    padding: 2px;
+}
+#login-email {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#login-password {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+}
+#login-button {
+    font-size: 20px;
+    margin: 2px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
