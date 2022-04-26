@@ -1,4 +1,4 @@
-var BASE_URL = "https://desolate-reef-68174.herokuapp.com"
+var BASE_URL = "http://desolate-reef-68174.herokuapp.com"
 
 var tasks = [];
 
